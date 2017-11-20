@@ -7,11 +7,8 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="icon" type="image/gif/png" href="images/ac_logo3.png">
-  <style>
-    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
-    .w3-quarter img{margin-bottom: -6px; cursor: pointer}
-    .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <script src="myscripts.js"></script>
 </head>
 
 <body class="w3-light-grey">
@@ -217,29 +214,6 @@
 
     </div>
   </footer>
-           
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
-
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-
-</script>
-
 
 </body>
 </html>
