@@ -1,4 +1,18 @@
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-quarter img{margin-bottom: -6px; cursor: pointer}
 .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
- 
+
+.padding-left-16 {
+	padding-left: 16px;
+}
+
+.title-subline {
+	font-size: 16px;
+}
+
+.hamburger-menu {
+	position: fixed;
+    right: 0;
+    top: 0px;
+    margin-top: 10px;
+}
